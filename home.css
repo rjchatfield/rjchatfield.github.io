@@ -84,6 +84,14 @@ td.taglineText {
 #li {background-position: 0px -176px;}
 #gh {background-position: -151px -347px;}
 
+.taglineText a {
+  color: #3395F8;
+  text-decoration: none;
+}
+.taglineText a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width:1000px) {
   h1 {font-size: 130px;line-height: 130px;}
   .tagline {font-size: 30px;}
