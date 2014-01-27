@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Robert Chatfield</title>
   <meta name ="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1, maximum-scale=1">
-  <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="home.css">
   <link rel="shortcut icon" href="favicon.ico">
   <meta name ="apple-mobile-web-app-capable" content="yes" />
@@ -12,10 +11,46 @@
   <script src="home.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body onload="loadPage();">
-  <heading>
-    <h1 onclick="realName();">Robert<br/>Chatfield</h1>
-    <p class="tagline hide" id="tagline">Code the change you wish to see in the world.</p>
-  </heading>
+
+  <!-- HEADING -->
+  <header>
+    <h1 onclick="realName();" ontouchstart="realName();">Robert J Chatfield</h1>
+    <table class="tagline hide" id="tagline">
+      <tbody>
+        <tr class="not_for_mobile">
+          <td>//</td>
+          <td class="taglineDivider">——————————————————————————————————————————————————</td>
+          <td>//</td>
+        </tr>
+        <tr class="not_for_mobile">
+          <td>//</td>
+          <td class="taglineText">Known for my passion and enthusiasm, I aim to enrich the world one project at a time. I am seeking a super</td>
+          <td>//</td>
+        </tr>
+        <tr class="not_for_mobile">
+          <td>//</td>
+          <td class="taglineText">engaging work environment where I can showcase and explore my talents, and work with equally driven developers.</td>
+          <td>//</td>
+        </tr>
+        <tr class="not_for_mobile">
+          <td>//</td>
+          <td class="taglineDivider">——————————————————————————————————————————————————</td>
+          <td>//</td>
+        </tr>
+        <tr class="for_mobile">
+			<td>//————————————//</td>
+        </tr>
+        <tr class="for_mobile">
+	        <td class="taglineDivider">Known for my passion and enthusiasm, I aim to enrich the world one project at a time. I am seeking a super engaging work environment where I can showcase and explore my talents, and work with equally driven developers.</td>
+        </tr>
+        <tr class="for_mobile">
+			<td>//————————————//</td>
+        </tr>
+      </tbody>
+    </table>
+  </header>
+
+  <!-- PROFILES -->
   <div id="socialmedias">
     <a class="sm hide" id="fb" target=_blank href="https://www.facebook.com/rjchatfield">FB</a>
     <a class="sm hide" id="gp" target=_blank href="https://plus.google.com/+RobertChatfield">Google+</a>
@@ -24,5 +59,31 @@
     <a class="sm hide" id="li" target=_blank href="http://au.linkedin.com/pub/robert-chatfield/70/310/79">Linkedin</a>
     <a class="sm hide" id="gh" target=_blank href="https://github.com/rjchatfield">GitHub</a>
   </div>
+
+  <!-- FOOTER -->
+  <footer>
+	  <table>
+	    <tbody class="tagline hide" id="footer">
+	      <tr>
+			<!--   NOT FOR MOBILE    	 -->
+	        <td class="not_for_mobile">//</td>
+	        <td class="taglineDivider not_for_mobile">——————————————————————————————————————————————————</td>
+	        <td class="taglineDivider for_mobile">//————————————//</td>
+	        <td class="not_for_mobile">//</td>
+	      </tr>
+	      <tr>
+	        <td class="not_for_mobile">//</td>
+	        <td class="taglineText">Download my resume <a href="robertjchatfield_cv_resume.pdf" target="_blank">here</a>.</td>
+	        <td class="not_for_mobile">//</td>
+	      </tr>
+	      <tr>
+	        <td class="not_for_mobile">//</td>
+	        <td class="taglineDivider not_for_mobile">——————————————————————————————————————————————————</td>
+	        <td class="taglineDivider for_mobile">//————————————//</td>
+	        <td class="not_for_mobile">//</td>
+	      </tr>
+	    </tbody>
+	  </table>
+  </footer>
 </body>
 </html>

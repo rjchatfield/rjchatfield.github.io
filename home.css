@@ -1,30 +1,42 @@
+/* -- ROBERT J CHATFIELD -- */
+
+/* -- MAIN -- */
 body {
   background-color: white;
   color: black;
-  font-family: 'Lato', HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
   text-align: center;
   vertical-align: top;
   -webkit-font-smoothing: antialiased;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
 }
-heading {
+
+/* -- HEADER && FOOTER -- */
+header,
+#socialmedias,
+footer {
   display: block;
-  margin: 80px;
+  margin: 80px 0;
 }
 h1 {
+  color: #3395F8;
   margin: 0;
-  font-size: 190px;
-  line-height: 180px;
-  font-weight: 100;
-  letter-spacing: 5px;
+  font-size: 130px;
+  line-height: 0.8em;
+  font-weight: 500;
+  letter-spacing: -5px;
   background: white;
   -webkit-transition: all 1s;
   -webkit-text-size-adjust: none;
 }
 .tagline {
-  letter-spacing: 1px;
-  font-size: 30px;
+  color: #7F7F7F;
+  letter-spacing: -1px;
+  font-size: 20px;
+  margin-top: 80px;
   -webkit-transition: all 1s;
   -webkit-text-size-adjust: none;
 }
@@ -32,9 +44,23 @@ h1 {
   -webkit-transform: scale(1.2);
   opacity: 0;
 }
-.tagline:before,
-.tagline:after {
-  content: "\"";
+.for_mobile {
+	display: none;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+td.taglineDivider {
+  padding: 0 12px;
+}
+td.taglineText {
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* -- PROFILES -- */
+#socialmedias {
 }
 .sm {
   display: inline-block;
@@ -62,13 +88,26 @@ h1 {
 #li {background-position: 0px -176px;}
 #gh {background-position: -151px -347px;}
 
+.taglineText a {
+  color: #3395F8;
+  text-decoration: none;
+}
+.taglineText a:hover {
+  text-decoration: underline;
+}
+
+/*
 @media only screen and (max-width:1000px) {
   h1 {font-size: 130px;line-height: 130px;}
   .tagline {font-size: 30px;}
   heading {margin: 40px 10px;}
 }
-@media only screen and (max-width:570px) {
-  h1 {font-size: 60px;line-height: 60px;}
-  .tagline {font-size: 20px; margin-top: 40px;}
-  heading {margin: 40px 10px;}
+*/
+@media only screen and (max-device-width:1000px) {
+  body {margin: 0;}
+  h1 {font-size: 60px;line-height: 60px;letter-spacing: -2px;}
+  header {margin: 30px 10px;}
+  .tagline {font-size: 20px; margin-top: 30px;}
+  .for_mobile {display: table-row;}
+  .not_for_mobile {display: none;}
 }
