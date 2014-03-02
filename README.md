@@ -1,8 +1,15 @@
-rjchatfield.com
+Robert J Chatfield
 ===============
 
-My Public Website
+> Known for my passion and enthusiasm, I aim to enrich the world one project at a time. I am seeking a super engaging work environment where I can showcase and explore my talents, and work with equally driven developers.
 
-Available at 'rdeb.neat-url.com/'.
+Connect with me:
 
-Designed to be a central site to link my public profiles and CV.
++ [Github](https://github.com/rjchatfield)
++ [Facebook](https://www.facebook.com/rjchatfield)
++ [Google+](https://plus.google.com/+RobertChatfield)
++ [Instagram](http://instagram.com/rjchatfield/)
++ [LinkedIn](http://au.linkedin.com/pub/robert-chatfield/70/310/79)
++ [Twitter](https://twitter.com/rjchatfield)
+
+Download my [CV](https://github.com/rjchatfield/rjchatfield.github.io/blob/master/robertjchatfield_cv_resume.pdf?raw=true).
