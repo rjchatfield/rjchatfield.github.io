@@ -12,4 +12,4 @@ Connect with me:
 + [LinkedIn](http://au.linkedin.com/pub/robert-chatfield/70/310/79)
 + [Twitter](https://twitter.com/rjchatfield)
 
-Download my [CV](https://github.com/rjchatfield/rjchatfield.github.io/blob/master/robertjchatfield_cv_resume.pdf?raw=true).
+Download my [CV](http://rjchatfield.github.io/robertjchatfield_cv_resume.pdf).
