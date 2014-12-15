@@ -1,0 +1,28 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="social-media" attributes="type username">
+  <template>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="social-media.css">
+    <!-- HTML -->
+    <a id="{{type}}" class="sm" target=_blank href="{{href}}"><content></content></a>
+  </template>
+
+  <script>
+    Polymer('social-media', {
+      get href() {
+        var url = "";
+        switch (this.type) {
+          case "fb": url = "http://www.facebook.com/";  break;
+          case "gp": url = "https://plus.google.com/+"; break;
+          case "tw": url = "https://twitter.com/";      break;
+          case "in": url = "http://instagram.com/";     break;
+          case "li": url = "http://au.linkedin.com/in/";break;
+          case "gh": url = "https://github.com/";       break;
+          default  : url = "http://lmgtfy.com/?q=";
+        }
+        return url + this.username;
+      }
+    });
+  </script>
+</polymer-element>
