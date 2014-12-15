@@ -1,0 +1,24 @@
+{
+  "name": "rjchatfield.com",
+  "version": "1.0.0",
+  "description": "My homepage",
+  "homepage": "https://github.com/rjchatfield/rjchatfield.github.io",
+  "authors": [
+    "Robert j Chatfield <rjchatfield@gmail.com>"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "~0.5.2"
+  }
+}

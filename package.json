@@ -1,0 +1,20 @@
+{
+  "name": "rjchatfield.com",
+  "version": "1.0.0",
+  "description": "My homepage",
+  "homepage": "https://github.com/rjchatfield/rjchatfield.github.io",
+  "author": "Robert j Chatfield <rjchatfield@gmail.com>",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-connect": "0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "connect-livereload": "~0.4.0",
+    "load-grunt-tasks": "~0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjchatfield/rjchatfield.github.io.git"
+  },
+  "license": "MIT"
+}
