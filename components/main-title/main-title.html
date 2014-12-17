@@ -1,0 +1,36 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="main-title" attributes="alt">
+  <template>
+    <!-- STYLE -->
+    <style type="text/css" media="screen">
+      h1 {
+        color: #3395F8;
+        margin: 0;
+        font-size: 130px;
+        line-height: 0.8em;
+        font-weight: 500;
+        letter-spacing: -5px;
+        background: white;
+        -webkit-transition: all 1s;
+        -webkit-text-size-adjust: none;
+      }
+    </style>
+    <!-- HTML -->
+    <h1 on-click="{{realName}}">{{name}}</h1>
+  </template>
+
+  <script>
+    Polymer('main-title', {
+      created: function() {
+        this.defaultName = this.innerText;
+        this.name = this.defaultName;
+      },
+      realName: function() {
+        this.name = (this.name === this.defaultName)
+                  ? this.alt
+                  : this.defaultName
+      }
+    });
+  </script>
+</polymer-element>

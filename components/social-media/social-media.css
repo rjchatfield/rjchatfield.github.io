@@ -1,0 +1,22 @@
+/* -- PROFILES -- */
+.sm {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-image: url('sm_icon.png');
+  color: rgba(255,255,255,0);
+  border-radius: 50%;
+  -webkit-transition: all 0.4s;
+}
+.sm:hover {
+  -webkit-transform: scale(1.1);
+}
+
+#fb {background-position: 0px -2px;}
+#gp {background-position: -152px -2px;}
+#tw {background-position: -456px -2px;}
+#in {background-position: -151px -176px;}
+#li {background-position: 0px -176px;}
+#gh {background-position: -151px -347px;}
