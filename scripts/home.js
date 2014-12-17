@@ -28,9 +28,3 @@ function showDiv(d) {
   var taglineEl = document.getElementById(d);
   taglineEl.classList.remove('hide');
 }
-
-function realName() {
-  var h1 = document.getElementsByTagName('h1')[0];
-  if (h1.innerHTML[0] == 'R') {h1.innerHTML = "Smiley Rob";}
-  else {h1.innerHTML = "Robert J Chatfield";}
-}
